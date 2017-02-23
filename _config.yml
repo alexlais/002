@@ -6,10 +6,14 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-						 https://alexlais.github.io
-baseurl                  : # the subpath of your site, e.g. "/blog"
-                         /002/index.html
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-                         alexlais/002
+
+# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: "https://alexlais.github.io"
+
+# the subpath of your site, e.g. "/blog" 
+# NOTE "/blog/" should be better so that angular knows its a folder for certain and not a file
+baseurl: "/002/index.html"
+
+# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository: "alexlais/002"
 
